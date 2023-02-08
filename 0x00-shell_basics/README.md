@@ -6,3 +6,5 @@
 5-listfilesdigitonly - This script displays the content within the directory with their UIDs and GIDs. \n
 6-firstdirectory - This script created a directory named 'my_first_directory' in the /tmp directory. \n
 7-movethatfile - This script moves a file named 'betty' from /tmp to /tmp/my_first_directory. \n
+8-firstdelete - This script deletes the file 'betty' from /tmp/my_first_directory.  
+9-firstdirdeletion - This script deleted 'my_first_directory'.  
