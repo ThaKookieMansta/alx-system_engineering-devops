@@ -11,3 +11,5 @@
 10-back - This script moves the user to the previous working directory.  
 11-lists - This script displays the content in the working directory, parent to the working directory and the /boot/ directory.  
 12-file_type - This script prints out the file type for the file 'iamafile'.  
+13-symbolic_link - This script creates a symbolic link to /bin/ls in the current directory.  
+14-copy_html - This script copies all html files from the current directory to the parent directory excluding existing files or newer destination files.  
