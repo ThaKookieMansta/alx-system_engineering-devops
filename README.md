@@ -1,2 +1,3 @@
 # alx-system_engineering-devops
-This is the project on Shell, basics 0x00 from ALX 
+This repository will host the system engineering devops projects from ALX
+
