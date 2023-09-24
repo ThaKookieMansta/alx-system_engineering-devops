@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Bash script to connect to server through passwordless ssh
+ssh -i ~/.ssh/school ubuntu@34.227.93.59
