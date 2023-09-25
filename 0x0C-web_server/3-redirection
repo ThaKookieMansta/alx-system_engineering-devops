@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Configure your Nginx server to redirect to another page
+# This script installs and configures Nginx for redirection 
+# to code 301 
 
 sudo apt-get update
 sudo apt-get install -y nginx

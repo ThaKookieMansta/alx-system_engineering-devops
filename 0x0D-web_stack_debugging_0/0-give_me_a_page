@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script starts an Apache Server in a container
+
+service apache2 start

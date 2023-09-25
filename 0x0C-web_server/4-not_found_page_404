@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Installs Nginx with the following configurations:
-#+    Listens on port 80.
+# This script installs Nginx and configures an error 
+# 404 page
 
 sudo apt-get update
 sudo apt-get install -y nginx
