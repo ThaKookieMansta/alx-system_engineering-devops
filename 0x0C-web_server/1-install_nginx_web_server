@@ -2,8 +2,8 @@
 # This script installs Nginx and opens port 80 for listening
 
 sudo apt-get -y update
+sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 sudo service nginx start
-sudo chown -R $USER:$USER /var/www/html/index.nginx-debian.html
 sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
 sudo service nginx restart
