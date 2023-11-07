@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ This function queries the Reddit API,
 parses the title of all hot articles, and
-prints a sorted count of given keywords 
+prints a sorted count of given keywords
 """
 from requests import get
 
@@ -12,7 +12,7 @@ HEADERS = {'user-agent': 'esw1229/0.0.1'}
 def count_words(subreddit, word_list, after="", word_dic={}):
     """
     Returns the list containing the titles of all hot
-    articles. If no results are found for the given 
+    articles. If no results are found for the given
     subreddit, the function should return None.
     """
     if not word_dic:
@@ -58,8 +58,7 @@ def count_words(subreddit, word_list, after="", word_dic={}):
             for w in word_list:
                 word_dic[w] += lower.count(w.lower())
 
-    except:
+    except ValueError:
         return None
 
     count_words(subreddit, word_list, after, word_dic)
-    
