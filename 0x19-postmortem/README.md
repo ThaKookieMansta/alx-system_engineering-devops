@@ -41,4 +41,4 @@
 
 In conclusion, the outage on August 11, 2023, stemmed from an accidental code push to the main branch and resulted in service disruptions for a significant portion of our users. We have taken immediate corrective actions and outlined comprehensive preventative measures to prevent similar incidents in the future and maintain the reliability of our banking web application. We appreciate our customers' patience during this disruption and are committed to providing secure and uninterrupted banking services.
 
-<img href="https://i.chzbgr.com/full/9340630528/hFC589711/spotify-playlist-songs-about-git" alt="git these issues">
+<img src="https://i.chzbgr.com/full/9340630528/hFC589711/spotify-playlist-songs-about-git" alt="git these issues">
